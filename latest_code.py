@@ -39,7 +39,7 @@ class FishShop:
         self.fish_boxes[name].append(fish_box)
 
     def add_fish(self, fish: Fish) -> None:
-        name = Fish.name
+        name = fish.name
         if self.fresh_fish[name] == None:
             self.fresh_fish[name] = []
         self.fresh_fish[name].append(fish)
