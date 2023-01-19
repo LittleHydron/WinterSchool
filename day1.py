@@ -8,7 +8,7 @@ class Fish:
         self.catch_date = datetime("21/01/2022")
         self.origin = "Norway"
         self.body_only = True
-        self.weight = 100
+        self.weight = 700
 
 class FishShop:
     def add_fish(self, fish_name: str, total_weight: float) -> None:
